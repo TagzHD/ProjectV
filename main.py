@@ -18,7 +18,7 @@ async def on_ready ():
 @client.command()
 async def rank(ctx):
     await ctx.send("Your current rank is Radiant")
-
+#testing
 
 client.run(os.getenv("MY_KEY"))
 
